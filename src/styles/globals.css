@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@import "./typography.css";
+
+:root {
+  /* Background colors */
+  --background: #ffffff;
+  --bg-primary: #003419;
+  --bg-light: #e8e8e8;
+
+  /* Button colors */
+  --btn-primary: #088d43;
+  --btn-primary-hover: #0c6f39;
+
+  /* Text colors */
+  --text-primary: #38f087;
+  --text-secondary: #d9d9d9;
+}
+body {
+  background: var(--background);
+  font-family: "Montserrat", Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+/* LOADER */
+.loader {
+  width: 22px;
+  height: 22px;
+  border: 3px solid #fff;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.text-secondary-dark {
+  color: #4a5565;
+}
+/* INPUT */
+.input__wrapper {
+  @apply flex flex-col gap-3;
+}
+
+/* BUTTON */
+.r-primary__sm {
+  @apply rounded-full bg-[var(--btn-primary)] duration-200 transition text-white hover:bg-[var(--btn-primary-hover)];
+  @apply active:bg-[var(--btn-primary-hover)] py-3 px-6 text-base font-semibold;
+}
+.r-primary__lg {
+  @apply bg-[var(--btn-primary)] rounded-full duration-200 transition text-white;
+  @apply hover:bg-[var(--btn-primary-hover)] active:bg-[var(--btn-primary-hover)];
+  @apply py-3 px-6 text-sm min-w-[100px] hover:cursor-pointer;
+}
+
+.r-secondary__sm {
+  @apply rounded-lg bg-none text-white border border-white duration-200 transition hover:text-[var(--btn-primary-hover)] 
+   hover:border-[var(--btn-primary-hover)] active:bg-[var(--btn-primary-hover)]
+   py-3 px-6  hover:cursor-pointer;
+}
+.r-secondary__lg {
+  @apply rounded-full text-gray-500 border border-gray-500 duration-200 transition hover:text-[var(--btn-primary-hover)] 
+   hover:border-[var(--btn-primary-hover)] active:bg-[var(--btn-primary-hover)] py-3 px-6 text-sm min-w-[100px]
+   hover:cursor-pointer;
+}
+
+
+.primary__sm {
+  @apply bg-[var(--btn-primary)] duration-200 transition 
+   text-white hover:bg-[var(--btn-primary-hover)] active:bg-[var(--btn-primary-hover)] 
+   rounded-lg py-3 px-6 hover:cursor-pointer;
+}
+.primary__lg {
+  @apply bg-[var(--btn-primary)] duration-200 transition text-white 
+   hover:bg-[var(--btn-primary-hover)] active:bg-[var(--btn-primary-hover)] 
+   rounded-lg py-4 min-w-[170px];
+}
+.secondary__sm {
+  @apply rounded-lg bg-none duration-200 transition 
+   hover:border-[var(--btn-primary-hover)] hover:bg-[var(--btn-primary-hover)] hover:text-white  
+   active:bg-[var(--btn-primary-hover)] active:text-white py-3 px-6  hover:cursor-pointer;
+}
+.btn-google {
+  @apply shadow-sm rounded-lg duration-50 py-4 transition hover:bg-gray-50
+   active:bg-gray-100 border border-[#d9d9d9] active:text-blue-600 flex w-full items-center 
+    justify-center gap-3;
+}

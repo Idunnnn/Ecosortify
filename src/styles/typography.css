@@ -1,0 +1,63 @@
+/* Typephography */
+.heading-1{
+  @apply text-[40px] font-semibold;
+}
+.heading-2{
+  @apply text-[36px] font-semibold;
+}
+.heading-3{
+  @apply text-[32px] font-semibold;
+}
+.heading-4{
+  @apply text-[28px] font-semibold;
+}
+.heading-5{
+  @apply text-[24px] font-semibold;
+}
+.heading-6{
+  @apply text-[20px] font-semibold;
+}
+
+.subheading-1{
+  @apply text-[40px] font-medium;
+}
+.subheading-2{
+  @apply text-[36px] font-medium;
+}
+.subheading-3{
+  @apply text-[32px] font-medium;
+}
+.subheading-4{
+  @apply text-[28px] font-medium;
+}
+.subheading-5{
+  @apply text-[24px] font-medium;
+}
+.subheading-6{
+  @apply text-[20px] font-medium;
+}
+
+.body-1{
+  @apply text-[36px] font-normal;
+}
+.body-2{
+  @apply text-[32px] font-normal;
+}
+.body-3{
+  @apply text-[28px] font-normal;
+}
+.body-4{
+  @apply text-[24px] font-normal;
+}
+.body-5{
+  @apply text-[20px] font-normal;
+}
+.body-6{
+  @apply text-[16px] font-normal;
+}
+.body-7{
+  @apply text-[14px] font-normal;
+}
+.body-8{
+  @apply text-[12px] font-normal;
+}

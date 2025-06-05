@@ -1,0 +1,109 @@
+{
+  "name": "Ecosortify",
+  "short_name": "Ecosortify",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "description": "Ecosortify, website edukasi tentang pengelolaan sampah dengan cara seru dan menyenangkan.",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/PWA/screenshots/desktop1.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/PWA/screenshots/desktop2.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/PWA/screenshots/desktop3.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/PWA/screenshots/desktop4.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/PWA/screenshots/mobile1.png",
+      "sizes": "414x896",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/PWA/screenshots/mobile2.png",
+      "sizes": "414x896",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/PWA/screenshots/mobile3.png",
+      "sizes": "414x896",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/PWA/screenshots/mobile4.png",
+      "sizes": "414x896",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Scan Image",
+      "short_name": "scan",
+      "description": "Scan gambar anda menggunakan SortiBot",
+      "url": "?source=pwa/scan",
+      "icons": [
+        {
+          "src": "/PWA/icon/scan.png",
+          "type": "image/png",
+          "sizes": "256x256"
+        },
+        {
+          "src": "/PWA/icon/scan.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "Chat dengan SortiBot",
+      "short_name": "chat",
+      "description": "Konsultasi terkait pengelolaan sampah dengan AI pintar SortiBot",
+      "url": "?source=pwa/chatbot",
+      "icons": [
+        {
+          "src": "/PWA/icon/chatbot.png",
+          "type": "image/png",
+          "sizes": "256x256"
+        },
+        {
+          "src": "/PWA/icon/chatbot.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
+    }
+  ]
+}
